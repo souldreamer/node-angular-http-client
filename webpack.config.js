@@ -7,7 +7,9 @@ module.exports = {
 	entry: './index.ts',
 	output: {
 		filename: 'index.js',
-		path: path.join(__dirname, './dist')
+		path: path.join(__dirname, './dist'),
+		library: 'node-angular-http-client',
+		libraryTarget: 'umd'
 	},
 	module: {
 		rules: [
@@ -40,4 +42,4 @@ module.exports = {
 			production ? './environment.prod.ts' : 'environment.ts'
 		)
 	]
-}
+};
