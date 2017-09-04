@@ -1,6 +1,6 @@
 {
 	"name": "node-angular-http-client",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "The Angular 4.3 HttpClient for node.js",
 	"keywords": [
 		"Angular",
@@ -29,6 +29,6 @@
 		"webpack": "^3.5.5"
 	},
 	"scripts": {
-		"prepublish": "tsc"
+		"prepare": "tsc"
 	}
 }
