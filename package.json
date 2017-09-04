@@ -1,0 +1,34 @@
+{
+	"name": "http-client",
+	"version": "1.0.0",
+	"description": "The Angular 4.3 HttpClient for node.js",
+	"keywords": [
+		"Angular",
+		"Angular 4",
+		"Angular 4.3",
+		"HttpClient",
+		"node.js",
+		"Observable",
+		"HTTP",
+		"fetch"
+	],
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"author": "Ionut Costica <ionut.costica@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"injection-js": "^2.1.0",
+		"rxjs": "^5.4.3",
+		"xhr2": "^0.1.4",
+		"zone.js": "^0.8.17"
+	},
+	"devDependencies": {
+		"@types/node": "^6",
+		"ts-loader": "^2.3.4",
+		"typescript": "^2.5.2",
+		"webpack": "^3.5.5"
+	},
+	"scripts": {
+		"publish": "NODE_ENV=production webpack"
+	}
+}
