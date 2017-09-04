@@ -29,6 +29,6 @@
 		"webpack": "^3.5.5"
 	},
 	"scripts": {
-		"publish": "NODE_ENV=production webpack"
+		"publish": "tsc"
 	}
 }
