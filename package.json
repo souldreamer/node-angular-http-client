@@ -1,5 +1,5 @@
 {
-	"name": "http-client",
+	"name": "node-angular-http-client",
 	"version": "1.0.0",
 	"description": "The Angular 4.3 HttpClient for node.js",
 	"keywords": [
