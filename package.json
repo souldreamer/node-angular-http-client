@@ -1,6 +1,6 @@
 {
 	"name": "node-angular-http-client",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "The Angular 4.3 HttpClient for node.js",
 	"keywords": [
 		"Angular",
@@ -16,6 +16,10 @@
 	"types": "dist/index.d.ts",
 	"author": "Ionut Costica <ionut.costica@gmail.com>",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/souldreamer/node-angular-http-client.git"
+	},
 	"dependencies": {
 		"injection-js": "^2.1.0",
 		"rxjs": "^5.4.3",
