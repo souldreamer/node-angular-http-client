@@ -6,7 +6,8 @@
  * found in the LICENSE file at https://angular.io/license
  */
 
-const xhr2: any = require('xhr2');
+// const xhr2: any = require('xhr2');
+import { XMLHttpRequest } from 'xhr2-cookies';
 
 import { Injectable, Optional, Provider } from 'injection-js';
 import {
@@ -48,7 +49,8 @@ function validateRequestUrl(url: string): void {
 
 @Injectable()
 export class ServerXhr implements BrowserXhr {
-	build(): XMLHttpRequest { return new xhr2.XMLHttpRequest(); }
+// 	build(): XMLHttpRequest { return new xhr2.XMLHttpRequest(); }
+	build(): XMLHttpRequest { return new XMLHttpRequest(); }
 }
 
 @Injectable()
