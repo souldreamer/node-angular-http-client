@@ -1,6 +1,6 @@
 {
 	"name": "node-angular-http-client",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "The Angular 4.3 HttpClient for node.js",
 	"keywords": [
 		"Angular",
@@ -23,15 +23,14 @@
 	"dependencies": {
 		"injection-js": "^2.1.0",
 		"rxjs": "^5.5.2",
-		"xhr2": "^0.1.4",
-		"xhr2-cookies": "0.9.2",
-		"zone.js": "^0.8.17"
+		"xhr2-cookies": "^0.9.2",
+		"zone.js": "^0.8.18"
 	},
 	"devDependencies": {
-		"@types/node": "^6",
-		"ts-loader": "^2.3.4",
-		"typescript": "^2.5.2",
-		"webpack": "^3.5.5"
+		"@types/node": "^8.0.51",
+		"ts-loader": "^3.1.1",
+		"typescript": "^2.6.1",
+		"webpack": "^3.8.1"
 	},
 	"scripts": {
 		"prepare": "tsc"
